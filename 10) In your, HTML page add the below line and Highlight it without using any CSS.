@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<h1>Here is the Example for Highlighting without CSS</h1>
+<p><mark>"HTML & CSS is awesome"</mark></p>
+</body>
+
+</html>
