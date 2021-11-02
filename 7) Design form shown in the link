@@ -1,0 +1,90 @@
+// HTML File
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <form>
+  <div class="box">
+  <h2>Yes! I want to subscribe to Mag-O-Zine</h2>
+  <table class="Table">
+    <tr>
+      <td><input type="text" name="firstname"></td>
+      <td><input type="text" name="lastname"></td>
+    </tr>
+    <tr>
+      <td>First Name</td>
+      <td>Last Name</td>
+    </tr>
+    <tr>
+      <td><input type="text" name="address"></td>
+    </tr>
+    <tr>
+      <td>Address</td>
+    </tr>
+    <tr>
+      <td><input type="text" name="city"></td>
+      <td><input type="text" name="state"></td>
+      <td><input type="text" name="zip"></td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td>State</td>
+      <td>Zip</td>
+    </tr>
+    
+</table>
+  <br>
+<div class="content2">
+  <p> <b>Subscribe for:</b><input type="checkbox"><b>1 year($19.95)</b><input type="checkbox"><b>2 year($35)</b>
+<br><br><b>
+   Send me more information about:<br>
+  <input type="checkbox">
+  <label for="Computer">Computer-Zine</label><br>
+  <input type="checkbox">
+  <label for="Fishing">Fishing-Zine</label><br>
+  <input type="checkbox">
+  <label for="Cat">Cat-O-Zine</label>
+  </b>
+</div>
+  
+</div>
+</form>
+</body>
+</html>
+
+
+
+// CSS File 
+
+
+*{
+  margin:4px;
+  padding:0;
+  box-sizing:border-box;
+  }
+.box{
+  border: 3px solid black;
+  width:550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  background:red;
+  margin:3px 7px 3px 7px;
+  text-align:center;
+  color:white;
+}
+.Table input[type=text] {
+  border: none;
+  border-bottom: 2px solid black;
+}
+.Table{
+  margin-left: auto;
+  margin-right: auto;
+}
